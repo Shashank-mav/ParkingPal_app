@@ -17,7 +17,7 @@ const ProfileScreen = () => {
           name: user.displayName,
           email: user.email,
           photoURL: user.photoURL,
-          // Add more fields if needed
+          // Add more fields here 
         });
       } else {
         // No user is signed in.
@@ -59,7 +59,7 @@ const ProfileScreen = () => {
     }
   };
 
-  // Dummy data for the flatlist items
+  // Dummy data for now
   const menuItems = [
     { id: '1', title: 'Add Vehicle', icon: 'car' },
     { id: '2', title: 'Settings', icon: 'cogs' },
@@ -67,7 +67,7 @@ const ProfileScreen = () => {
     { id: '4', title: 'Get Help', icon: 'question-circle' },
   ];
 
-  // Render each item in the flatlist
+  // Render each item inn flatlist
   const renderItem = ({ item }) => (
     <TouchableOpacity style={styles.menuItem}>
       <Icon name={item.icon} size={20} color="black" style={styles.menuItemIcon} />

@@ -5,7 +5,7 @@ import { View, Text } from 'react-native';
 const Inbox = () => {
   return (
     <View>
-      <Text>Saved Screen</Text>
+      <Text>inbox Screen</Text>
     </View>
   );
 };

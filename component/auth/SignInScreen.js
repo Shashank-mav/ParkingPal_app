@@ -12,7 +12,7 @@ const SignInScreen = ({ navigation }) => {
       const auth = getAuth();
       await signInWithEmailAndPassword(auth, email, password);
       console.log('User signed in successfully!');
-      // You can navigate to the main app screen or do other actions here
+      // navigate to the main app?
     } catch (error) {
       console.error('Error during sign-in:', error.message);
     }

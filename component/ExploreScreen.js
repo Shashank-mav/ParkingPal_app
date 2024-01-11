@@ -77,7 +77,7 @@ const ExploreScreen = () => {
           longitude: location.lng,
         });
 
-        setErrorMsg(null); // Clear any previous error message
+        setErrorMsg(null); // ->Clears previous error message
       } else {
         setErrorMsg('Location not found');
       }

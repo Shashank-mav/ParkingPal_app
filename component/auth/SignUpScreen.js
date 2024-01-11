@@ -12,7 +12,7 @@ const SignUpScreen = ({ navigation }) => {
       const auth = getAuth();
       await createUserWithEmailAndPassword(auth, email, password);
       console.log('User registered successfully!');
-      // You can navigate to the main app screen or do other actions here
+      // navigate to the main app?
     } catch (error) {
       console.error('Error during registration:', error.message);
     }
